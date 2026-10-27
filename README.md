@@ -1,17 +1,20 @@
 # Computer Networks – Lecture Notes 🍵
 
-Egyptian Arabic lecture notes for a Computer Networks course, packed into **one self-contained HTML page**. Switch between sessions with the tabs at the top, jump between sections with the sticky nav bar, and read it on desktop or mobile.
+Egyptian Arabic lecture notes for a Computer Networks course, packed into **one self-contained HTML page**. Switch between sessions with the tabs at the top, jump between sections with the sticky nav bar, search a glossary of abbreviations, and read it on desktop or mobile.
 
 > شرح مادة الشبكات بالعامية المصرية في صفحة واحدة، مرتب وسهل المذاكرة منه.
 
 ## Contents
 
-| Session | Topics |
+| Part | Topics |
 |---|---|
-| **1** | Network basics, Unicast / Broadcast / Multicast, Hub, Switch, Router, collision & broadcast domains, LAN vs WAN, OSI model (Layers 7 → 2) |
-| **2** | Ethernet, Data Link layer, MAC addresses, Physical layer & cables (UTP/STP, Straight-Through, Crossover), TCP 3-way & 4-way handshake, ports & sockets, ARQ |
-| **3** | IP addressing, classes A / B / C / D / E, default subnet masks, subnetting with worked example and homework |
-| **4** | Access Control Lists (ACL), wildcard masks, Standard & Extended ACLs, Named & Numbered ACLs, router configuration examples |
+| **Session 1** | Network basics, Unicast / Broadcast / Multicast, Hub, Switch, Router, collision & broadcast domains, LAN vs WAN, OSI model (Layers 7 → 2) |
+| **Session 2** | Ethernet, Data Link layer, MAC addresses, Physical layer & cables (UTP/STP, Straight-Through, Crossover), TCP 3-way & 4-way handshake, ports & sockets, ARQ |
+| **Session 3** | IP addressing, classes A / B / C / D / E, default subnet masks, subnetting with worked example and homework |
+| **Session 4** | Access Control Lists (ACL), wildcard masks, Standard & Extended ACLs, Named & Numbered ACLs, router configuration examples |
+| **Session 5** | Spanning Tree Protocol (Root Switch, BID, port roles), NAT (private vs public IPs), Static NAT, Dynamic NAT, PAT |
+| **Self Study** | Wireshark: what a packet analyzer is, how it works (capture, dissect, filter), the three panes, coloring rules, and reading a real capture |
+| **Abbreviations** | A searchable glossary of 63 abbreviations used across all the parts (NAT, LAN, TCP, ACL, ...) with their full forms and the sessions where each appears |
 
 ## Usage
 
@@ -32,8 +35,9 @@ No build step, no dependencies. Images are embedded inside the file, so it works
 ## Features
 
 - Dark blue theme, responsive layout, RTL Arabic text
-- Session tabs with a sticky per-session section nav and reading progress bar
-- Code-style blocks for router commands, tables, and embedded diagrams
+- Tabs for Sessions 1–5 and Self Study, with a sticky per-part section nav and reading progress bar
+- Abbreviations page with live search, grouped by topic, and links back to the sessions
+- Code-style blocks for router commands, tables, and embedded diagrams and screenshots
 
 ## Author
 
